@@ -1,0 +1,27 @@
+{
+  "name": "nodeleague-api",
+  "version": "0.0.1",
+  "description": "A REST API",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeleague/api.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "API"
+  ],
+  "author": "Jon Kuperman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodeleague/api/issues"
+  },
+  "homepage": "https://github.com/nodeleague/api#readme"
+}
