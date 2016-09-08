@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/indexTest.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/nodeleague/api/issues"
   },
-  "homepage": "https://github.com/nodeleague/api#readme"
+  "homepage": "https://github.com/nodeleague/api#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "supertest": "^2.0.0",
+    "tape": "^4.6.0"
+  }
 }
